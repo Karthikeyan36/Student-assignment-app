@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title color="dark">New Registration</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content >
+  <div class="regform">
+  <ion-item>
+    <ion-input placeholder="username" [(ngModel)]="username"  type ="name"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input placeholder="Email id" [(ngModel)]="email"  type ="email"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input placeholder="new password" [(ngModel)]="password" type ="password"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input placeholder="confirm password" [(ngModel)]="conpassword" type ="password"></ion-input>
+  </ion-item>
+  <ion-button color="dark" class="btncenter">Submit</ion-button>
+</div>
+</ion-content>

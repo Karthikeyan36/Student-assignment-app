@@ -25,3 +25,15 @@
 #container a {
   text-decoration: none;
 }
+.ilist {
+ 
+  padding: 2rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+.ilist > ion-item {
+  margin-bottom: 1rem;
+}
